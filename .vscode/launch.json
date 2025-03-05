@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/codeup_git_repo/clang_workspace/c1001",
-      "program": "c:/codeup_git_repo/clang_workspace/c1001/build/Debug/outDebug",
+      "cwd": "c:/codeup_git_repo/clang_workspace",
+      "program": "c:/codeup_git_repo/clang_workspace/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
