@@ -1,0 +1,1 @@
+print("%s\n%s" % ("Hello", "World"))
