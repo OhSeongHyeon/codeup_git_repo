@@ -8,10 +8,10 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/codeup_git_repo/clang_workspace",
-      "program": "c:/codeup_git_repo/clang_workspace/build/Debug/outDebug",
+      "cwd": "c:/codeup_workspace/codeup_git_repo/clang_workspace",
+      "program": "c:/codeup_workspace/codeup_git_repo/clang_workspace/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
