@@ -110,13 +110,15 @@ for i in range(size):
     board.append([int(a) for a in input().split()])
 while x < size-1 and y < size-1:
     board[x][y] = 9
-    if board[x][y] == 2:
-        break
     if board[x][y+1] == 0:
-        x += 1
-    elif board[x+1][y] == 0:
         y += 1
+    elif board[x+1][y] == 0:
+        x += 1
     else:
+        if board[x][y+1] == 2:
+            board[x][y+1] = 9
+        elif board[x+1][y] == 2:
+            board[x+1][y] = 9
         break
 for row in range(size):
     for col in range(size):
