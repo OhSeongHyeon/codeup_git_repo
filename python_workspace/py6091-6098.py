@@ -113,9 +113,9 @@ while x < size-1 and y < size-1:
     if board[x][y] == 2:
         break
     if board[x][y+1] == 0:
-        x += 1
-    elif board[x+1][y] == 0:
         y += 1
+    elif board[x+1][y] == 0:
+        x += 1
     else:
         break
 for row in range(size):
