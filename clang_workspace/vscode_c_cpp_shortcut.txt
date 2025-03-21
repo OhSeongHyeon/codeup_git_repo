@@ -1,2 +1,12 @@
 ctrl + alt + c : 컴파일
 ctrl + alt + r : 실행
+
+keybindings.json 파일에 추가
+{
+    "key": "ctrl+alt+c",
+    "command": "workbench.action.tasks.build",
+},
+{
+    "key": "ctrl+alt+r",
+    "command": "workbench.action.tasks.test"
+}
